@@ -592,21 +592,7 @@ export const Header = () => {
           padding={10}
         >
           <Box display={"flex"} flexDirection={"row"} alignItems={"center"}>
-            <a href="#contact-us">
-              <Button
-                onClick={() => setIsContactUs(true)}
-                style={{
-                  marginLeft: 30,
-                  backgroundColor: "#4880fe",
-                  background: "linear-gradient(to right, #4880fe, #0f49cf)",
-                  height: 50,
-                  borderRadius: 15,
-                }}
-                variant="contained"
-              >
-                Nous contacter
-              </Button>
-            </a>
+          
             <a
               target="_blank"
               rel="noreferrer"
@@ -617,9 +603,12 @@ export const Header = () => {
                 height={50}
                 width={50}
                 alt=""
-                style={{ marginRight: -15, marginLeft: 15 }}
+                style={{ marginRight: -10, marginLeft: 15 }}
               />
             </a>
+            <a style={{marginLeft: 20}} target="_blank" rel="noreferrer" href="mailto:issacolon2@gmail.com">
+            <img src="/gmail.png" height={50} width={50} alt="" />
+          </a>
           </Box>
         </Grid>
       </Grid>
@@ -689,7 +678,7 @@ export const Header = () => {
           >
             Votre prochain projet avec nous
           </h1>
-          <a target="_blank" rel="noreferrer" href="https://wa.me/237690892155">
+          <a target="_blank" rel="noreferrer" href="https://wa.me/23054786673">
             <img src="/wa.png" height={70} width={70} alt="" />
           </a>
           <a style={{marginLeft: 20}} target="_blank" rel="noreferrer" href="mailto:issacolon2@gmail.com">
