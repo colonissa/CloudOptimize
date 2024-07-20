@@ -610,7 +610,7 @@ export const Header = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://wa.me/237690892155"
+              href="https://wa.me/23054786673"
             >
               <img
                 src="/wa.png"
@@ -691,6 +691,9 @@ export const Header = () => {
           </h1>
           <a target="_blank" rel="noreferrer" href="https://wa.me/237690892155">
             <img src="/wa.png" height={70} width={70} alt="" />
+          </a>
+          <a style={{marginLeft: 20}} target="_blank" rel="noreferrer" href="mailto:issacolon2@gmail.com">
+            <img src="/gmail.png" height={70} width={70} alt="" />
           </a>
         </Box>
       </Box>
